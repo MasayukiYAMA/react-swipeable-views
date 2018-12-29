@@ -694,7 +694,7 @@ class SwipeableViews extends React.Component {
 
   render() {
     const {
-      action,
+      actions,
       animateHeight,
       animateTransitions,
       axis,
@@ -857,7 +857,7 @@ SwipeableViews.propTypes = {
    * @param {object} actions This object contains all posible actions
    * that can be triggered programmatically.
    */
-  action: PropTypes.func,
+  actions: PropTypes.func,
   /**
    * If `true`, the height of the container will be animated to match the current slide height.
    * Animating another style property has a negative impact regarding performance.
