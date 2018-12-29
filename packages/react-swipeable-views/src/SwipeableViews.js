@@ -301,8 +301,8 @@ class SwipeableViews extends React.Component {
     }
 
     // Send all functions in an object if action param is set.
-    if (this.props.action) {
-      this.props.action({
+    if (this.props.actions) {
+      this.props.actions({
         updateHeight: this.updateHeight,
       });
     }
